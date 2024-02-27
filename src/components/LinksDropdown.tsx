@@ -142,9 +142,9 @@ export function LinksDropdown(props: { children: React.ReactNode }) {
           <DropdownLink href="/about" icon={Icons.CIRCLE_QUESTION}>
             {t("navigation.menu.about")}
           </DropdownLink>
-          <DropdownLink href={conf().DONATION_LINK} icon={Icons.DONATION}>
+          {/* <DropdownLink href={conf().DONATION_LINK} icon={Icons.DONATION}>
             {t("navigation.menu.donation")}
-          </DropdownLink>
+          </DropdownLink> */}
           {deviceName ? (
             <DropdownLink
               className="!text-type-danger opacity-75 hover:opacity-100"
